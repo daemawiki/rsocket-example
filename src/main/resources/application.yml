@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: rsocket-example
+
+  rsocket:
+    server:
+      port: 9900
+      transport: websocket
+      mapping-path: /rsocket
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web.socket: DEBUG
